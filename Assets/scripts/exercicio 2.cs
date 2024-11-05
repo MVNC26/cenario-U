@@ -28,7 +28,7 @@ public class exercicio2 : MonoBehaviour
     }
 }
 
-/* metodo alternativo mais facil 
+/* metodo alternativo mais facil, sendo melhor para a memoria ocupando menos espaço
  * 
  
 [serialFild] bool powerup;
@@ -44,6 +44,12 @@ else
 {
 print ("nenhum power up encontrado")
 }
+
+MOdo boleano 
+
+print (power up ? "power uo Coletado" : "nenhum power up encontrado") ; 
+
+
  
  
  

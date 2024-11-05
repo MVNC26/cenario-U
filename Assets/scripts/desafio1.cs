@@ -39,3 +39,24 @@ public class desafio1 : MonoBehaviour
         
     }
 }
+
+/* metodo alternativo para realizar desafio 
+ 
+[SereialFild]boll playervivo;
+[SerialFild]boll powerUp;
+double vidaplayer = 100
+ 
+ 
+void start()
+
+if(playerVivo == false && powerUp == true)
+{
+vidaPlayer = vidaplayer * 0.5;
+print(``Ainda nao, vida atual `` + vidaPlayer);
+}
+else
+{
+print(``Gameover!``);
+}
+
+ */

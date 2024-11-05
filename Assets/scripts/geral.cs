@@ -15,7 +15,15 @@ public class geral : MonoBehaviour
         <= (menor igual)
         > (Maior igual)
 
+    operadores logicos
+
+        && (E/ AND)
+        !! (OU/ OR)
+        ! (NAp/ NOT)
+
      */
+
+
 
     [SerializeField] int Vida_heroi = 100;
     [SerializeField] int Vida_vilao = 300;
@@ -56,3 +64,32 @@ public class geral : MonoBehaviour
         
     }
 }
+
+
+//estado 01: vilão ataca
+//estado 02: vilão defende
+//estado 03: vilão toma dano
+
+//switch (estadoVilao)
+//{
+//    case 1:
+//        print("Vilaão atacando");
+//        if (true)
+//        {
+//            print("Danoo");
+//        }
+//        break;
+
+//    case 2:
+//        print("Vilão defende");
+//        break;
+
+
+//    case 3:
+//        print("Vilão tomando um coro");
+//        break;
+
+//    default:
+//        print("Valor não identificado");
+//        break;
+//}
