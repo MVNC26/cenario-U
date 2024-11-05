@@ -8,14 +8,20 @@ public class exercicio6 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       if (guerreiro == true)
+       if (guerreiro == true && mago == false)
         {
             print("guerreiro escolhido");
 
-        } else if (mago == true)
+        } 
+        else if (mago == true && guerreiro == false)
         {
             print("mago escolhido"); 
-        }else
+        }
+       else if (mago && guerreiro)
+        {
+            print("escolha apenas 1");
+        }
+        else
         {
             print("nenhum persoangem escolhido");
         }
