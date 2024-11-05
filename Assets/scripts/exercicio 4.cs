@@ -37,7 +37,6 @@ void start ()
 
 print (pocaoVida == true ? ``usando pocao de vida`` : ``pocao indisponivel``)
 
-
 }
 
  */

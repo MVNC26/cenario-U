@@ -8,7 +8,7 @@ public class exercicio5 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if ( missao = true && pontuação == 50 )
+        if ( missao = true && pontuação > 50 )
         {
             print("Missão bem-sucedida");
         } 
