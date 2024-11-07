@@ -744,7 +744,6 @@ GameObject:
   - component: {fileID: 538571955}
   - component: {fileID: 538571957}
   - component: {fileID: 538571956}
-  - component: {fileID: 538571958}
   m_Layer: 0
   m_Name: 'parede invisivel direita '
   m_TagString: Untagged
@@ -868,19 +867,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &538571958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538571954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46892a050386d85468892e3cd2f93fab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itenspersonagem: 1
 --- !u!1 &634827931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,11 +1704,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 951598136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cef44aa6832ab1d4b954c03f08e87646, type: 3}
+  m_Script: {fileID: 11500000, guid: f3c38d2ead392c94f89b0528a1c28b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PtimeA: 3
-  PtimeB: 3
+  guerreiro: 0
+  mago: 0
 --- !u!1 &1091363568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,7 +2014,6 @@ GameObject:
   - component: {fileID: 1356899341}
   - component: {fileID: 1356899340}
   - component: {fileID: 1356899342}
-  - component: {fileID: 1356899343}
   m_Layer: 0
   m_Name: Layer_0000_9_0
   m_TagString: Untagged
@@ -2152,21 +2137,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9.285766, y: 0.56456196}
   m_EdgeRadius: 0
---- !u!114 &1356899343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356899339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80018738f063db74d8a96f6c863c3aff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  power_up: 1
-  vidaheroiI: 50
-  vidaheroiA: 0
 --- !u!1 &1420555498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,7 +2844,6 @@ GameObject:
   - component: {fileID: 2134460825}
   - component: {fileID: 2134460827}
   - component: {fileID: 2134460826}
-  - component: {fileID: 2134460828}
   m_Layer: 0
   m_Name: parede invisivel esquerda
   m_TagString: Untagged
@@ -2998,19 +2967,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2134460828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134460824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d451842a61c74043b1c73f9d0b7cf8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidaheroi: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

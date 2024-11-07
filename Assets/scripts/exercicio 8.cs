@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class exercicio8 : MonoBehaviour
 {
-    [SerializeField] int hora = 0;
-    int segundos;
-    int dias = 0;
-    
+    [SerializeField] int hora;
+    [SerializeField] int dia;
+    [SerializeField] float segundos;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,18 +16,19 @@ public class exercicio8 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        segundos++;
+        segundos = Time.deltaTime;
 
-        if (segundos % 1000 == 0)
+        if (segundos >= 10f)
         {
             hora++;
-            print(hora);
-        }
-        if (hora ==24)
-        {
-            dias++;
-            hora = 0;
-            print(dias);
+            segundos = 0;
+            if (hora == 24 )
+            {
+                dia++;
+                hora = 0;
+                print(dia);
+            }
+
         }
         
           
@@ -43,3 +44,25 @@ public class exercicio8 : MonoBehaviour
 //completar um ciclo, incremente uma variável dias e escreva o
 //número de dias que se passaram no console. (Coloque o código
 //dentro da função-evento Update).
+
+//void Update()
+//{
+//    segundos++;
+
+//    if (segundos % 1000 == 0)
+//    {
+//        hora++;
+//        print(hora);
+//    }
+//    if (hora == 24)
+//    {
+//        dias++;
+//        hora = 0;
+//        print(dias);
+//    }
+
+
+
+
+//}
+//}
